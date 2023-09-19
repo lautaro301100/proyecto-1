@@ -1,0 +1,40 @@
+*{
+font-family:'Noto Sans', sans-serif;
+font-size: 16px;
+
+padding: 0%;
+margin: 0%;
+}
+
+
+/*background color #AA0AA7*/
+
+/*Header*/
+.barradenavegacion{
+    background-color: blueviolet;
+    display: flex;
+    height: 4em;
+    
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+}
+
+.menulist{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    background: whitesmoke;
+
+}
+.menulist li{
+    list-style: none;
+}
+.menulist li a{
+    text-decoration: none;
+
+}
